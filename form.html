@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form</title>
+</head>
+
+<body>
+	<nav>
+		<a href="index.html">Home Pages</a>
+	</nav>
+	<section>
+		<h1>Соціологічне опитування</h1>
+		<form action="https://formspree.io/xyygnqqa" method="POST">
+			<label>
+            Ім'я:<input type="text" name="Ім'я" placeholder="Name">
+            </label>
+			<br>
+			<br>
+			<label>
+            Вік:<input type="text" name="Вік" placeholder="Age">
+        </label>
+			<br>
+			<br>
+			<label>Стать:</label>
+			<br>
+			<br>
+			<label>
+            <input type="radio" name="Стать" value="Чоловік">Чоловік
+        </label>
+			<label>
+            <input type="radio" name="Стать" value="Жінка">Жінка
+        </label>
+			<br>
+			<br>
+			<label>1.Чи любите ви тварин?</label>
+			<br>
+			<br>
+			<label>
+         <input type="radio"  name="question-first" value="так">Так
+         </label>
+			<label>
+         <input type="radio"  name="question-first" value="ні">Ні
+         </label>
+			<br>
+			<br>
+			<label>2. Які тварини живуть у вас вдома?</label>
+			<br>
+			<br>
+			<label>
+         <input type="checkbox"  name="question-second" value="кіт">Кіт
+         </label>
+			<br>
+			<br>
+			<label>
+         <input type="checkbox"  name="question-second" value="собака">Собака
+         </label>
+			<br>
+			<br>
+			<label>
+         <input type="checkbox"  name="question-second" value="рибки">Рибки
+         </label>
+			<br>
+			<br>
+			<label>
+         <input type="checkbox"  name="question-second" value="хом'як">Хом'як
+         </label>
+			<br>
+			<br>
+			<label>
+         <input type="checkbox"  name="question-second" value="птах">Пташка
+         </label>
+			<br>
+			<br>
+			<label>
+         <input type="checkbox"  name="question-second" value="інше">Інше
+         </label>
+			<br>
+			<br>
+			<label>3.Як тваринка потрапила до вас додому?</label>
+			<br>
+			<br>
+			<label>
+         <input type="radio"  name="question-third" value="купили">Купили
+         </label>
+			<label>
+         <input type="radio"  name="question-third" value="подарували">Подарували
+         </label>
+			<label>
+         <input type="radio"  name="question-third" value="підібрали">Підібрали
+         </label>
+			<label>
+         <input type="radio"  name="question-third" value="інше">Інше
+         </label>
+			<br>
+			<br>
+			<label>4.Скільки тварин у вас вдома?</label>
+			<br>
+			<br>
+			<select name="question-fouгth">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="більше">Більше</option>
+        </select>
+			<br>
+			<br>
+			<label>5.Ваш коментар</label>
+			<br>
+			<br>
+			<textarea name="text" cols="50" rows="3" placeholder="Коментар"></textarea>
+			<br>
+			<br>
+			<input type="submit" value="Надіслати">
+        </form>
+	</section>
+
+</body>
+
+</html>
